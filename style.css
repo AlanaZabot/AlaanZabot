@@ -1,0 +1,107 @@
+*{ 
+    margin:0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+
+display:flex;
+justify-content: center;
+background-image: url(https://img.elo7.com.br/product/zoom/20D6C74/papel-de-parede-floral-em-3d-fundo-rosa-papel-de-parede-torre.jpg);
+align-items: center;
+}
+
+.primeiro{
+    width: 40%;
+    height: 50%;
+
+    background: linear-gradient(to bottom, rgb(144, 189, 248),rgb(255, 0, 128), rgb(97, 2, 68));
+
+    display:flex;
+    justify-content: center ;
+    align-items: center;
+    border-radius: 15px;
+}
+h1{
+    color: rgb(255, 2, 86);
+    font-size: 20px;
+text-align: center;
+}
+
+
+.nome{
+    background-color: rgb(255, 254, 254);
+    width: 150px;
+    height: 20px;
+
+    margin-bottom: 5px;
+    box-shadow: inset 1px 1px 4px rgba(0, 0, 0, 0.459);
+
+    text-align: center;
+
+
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nome1{
+   
+    margin-top: 15px;
+    width: 150px;
+    height: 20px;
+
+    margin-bottom: 5px;
+    box-shadow: inset 1px 1px 4px rgba(0, 0, 0, 0.397);
+    text-align: center;
+
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h3{
+font-size:0px;
+color: rgb(253, 0, 84);
+}
+
+.quad{
+    background-color: rgb(255, 255, 255);
+    width: 30px;
+    height: 20px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+
+
+.button{
+   
+    width: 150px;
+    height: 30px;
+
+    margin-top: 20px;
+    box-shadow: inset 1px 1px 4px rgba(255, 0, 128, 0.397);
+    text-align: center;
+
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+}
+h2{
+    
+    font-size: 20px;
+color: rgb(0, 0, 0);
+    
+}
+.button:hover{
+    background-color: rgb(170, 79, 255);
+    color:rgb(194, 0, 113)
+    transition: all 1.5s;
+}
